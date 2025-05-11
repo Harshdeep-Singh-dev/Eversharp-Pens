@@ -929,129 +929,132 @@ aside marquee img{
 }
  
 .leave-review{
-    height: 300px;
-    width: 1000px;
-    padding: 20px;
+    height: 20vw;
+    width: 66.67vw;
+    padding: 1.34vw;
     background-color: #629460;
     color: #fff;
-    border-radius: 20px;
+    border-radius: 1.34vw;
     margin-left: 18vw;
-    padding: 30px;
+    padding: 2vw;
     z-index: 10;
     display: flex;
 
     position: relative;
     z-index: 200;
-    bottom: 20vh;
+    bottom: 9.8vw;
 }
 
 
 .textNform{
-    width: 400px;
-    margin-left: 200px;
+    width: 26.67vw;
+    margin-left: 13.34vw;
 }
 .textNform h3{
-    font-size: 2.5rem;
-    letter-spacing: 3px;
+    font-size: 2.5vw;
+    letter-spacing: 0.2vw;
 }
 .textNform form textarea{
-    height: 30px;
-    margin-top: 3vh;
-    width: 200px;
-    border-radius: 50px;
-    padding: 5px  20px;
+    height: 2vw;
+    margin-top: 1.5vw;
+    width: 13.34vw;
+    border-radius: 3.34vw;
+    padding: 0.34vw  1.34vw;
 }
 .textNform form button{
-    height: 30px;
-    width: 90px;
-    border-radius: 30px;
-    margin-left: 10px;
+    height: 2vw;
+    width: 6vw;
+    border-radius: 2vw;
+    margin-left: 0.67vw;
     position: relative;
-    bottom: 10px;
+    bottom: 0.67vw;
 }
 .leave-review figure{
-    height: 200px;
-    width: 200px;
+    height: 13.34vw;
+    width: 13.34vw;
 }
 .leave-review figure img:first-of-type{
-    height: 50px;
-    width: 200px;
+    height: 3.34vw;
+    width: 13.34vw;
 }
 .leave-review figure img:last-of-type{
-    height: 200px;
-    width: 200px;
+    height: 13.33vw;
+    width: 13.33vw;
 }
 .link-in-review{
-    height: 100px;
-    width: 400px;
+    height: 6.67vw;
+    width: 26.67vw;
 }
 .link-in-review img{
-    height: 70px;
-    width: 70px;
-    margin-left: 10px;
+    height: 4.67vw;
+    width: 4.67vw;
+    margin-left: 0.67vw;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .leave-review {
       flex-direction: column;
-      width: 90%;
-      height: 69vh;
+      height: auto;
       width: 100vw;
       margin-left: auto;
       margin-right: auto;
       bottom: 0; /* stop pushing up */
-      padding: 20px;
-      border-radius: 60px;
+      border-radius: 8vw;
     }
   
     .textNform {
       width: 100%;
       margin-left: 0;
-      margin-top: 20px;
+      margin-top: 5.2vw;
       text-align: center;
     }
   
     .textNform h3 {
-      font-size: 1.8rem;
-      letter-spacing: 2px;
+      font-size: 7.2vw;
+      letter-spacing: 0.5vw;
     }
   
     .textNform form textarea {
       width: 80%;
-      height: 60px;
-      border-radius: 20px;
-      font-size: 1rem;
+      height: 4vw;
+      border-radius: 2.6;
+      font-size: 2vw;
+      padding: 6vw;
     }
   
     .textNform form button {
-      margin-left: 0;
-      margin-top: 10px;
-      bottom: 20px;
-      position: relative;
+      width: 20vw;
+      height: 8vw;
+      margin-top: 1vw;
     }
   
     .leave-review figure {
-      margin: 0 auto;
-      width: 150px;
+      margin: 0 28vw;
+      width: 20vw;
       height: auto;
     }
   
     .leave-review figure img:first-of-type,
     .leave-review figure img:last-of-type {
-      width: 100%;
-      height: auto;
+      width: 200%;
+      height: 200%;
+
+      margin-left: 0;
     }
   
     .link-in-review {
       width: 100%;
       text-align: center;
-      margin-top: 20px;
     }
   
     .link-in-review img {
-      height: 50px;
-      width: 50px;
-      margin: 10px;
+      height: 13.2vw;
+      width: 13.2vw;
+      margin: 2.6vw;
+    }
+    .textNform p{
+        display: inline-block;
+        margin-top: 10vw;
     }
   }
   
@@ -1059,84 +1062,85 @@ aside marquee img{
 /* FOOTER SECTION STYLES */
 
 footer{
-    padding-top: 200px;
-    border-radius: 50px;
+    padding-top: 13.34vw;
+    border-radius: 3.34vw;
     background-color: #C78283;
     transform: translateY(-40.6vh);
+    height: auto;
 
 }
 .footer-section{
-    height: 1000px;
+    height: 66.67vw;
     width: 100%;
     background-color: #181733;
 }
 .list-info{
-    height: 500px;
+    height: 33.33vw;
     width: 100%;
     color: #fff;
     display: flex;
-    padding-top: 80px;
+    padding-top: 5.3vw;
     justify-content: space-around;
 }
 .list{
-    height: 400px;
-    width: 200px;
+    height: 26.67vw;
+    width: 13.34vw;
 }
 .list h6{
-    font-size: 1.2rem;
+    font-size: 1.2vw;
     font-weight: 700;
     font-family: "Ubuntu","sans-serif";
 }
 .list ul, .list dl{
     list-style-type: none;
-    padding-top: 35px;
+    padding-top: 2.34vw;
 }
 .list li, .list dd, .list dt{
-    line-height: 30px;
+    line-height: 2vw;
     color: #ffffffbf;
     font-weight: 300;
     font-family: "Ubuntu","sans-serif";
 }
 .list dt{
-    font-size: 1.1rem;
+    font-size: 1.1vw;
     font-weight: 700;
 }
 .list dd{
-    margin-bottom: 20px;
+    margin-bottom: 1.34vw;
 }
 .footer-logo-and-name{
-    height: 170px;
+    height: 11.34vw;
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 3.34vw;
     color: #fff;
 }
 .footer-company-logo{
-    margin-left: 30px;
-    height: 40px;
-    width: 200px;
+    margin-left: 2vw;
+    height: 2.67vw;
+    width: 13.34vw;
 }
 .footer-company-logo figure{
-    height: 40px;
-    width: 200px;
+    height: 2.67vw;
+    width: 13.34vw;
 }
 .footer-company-logo figure img{
-    height: 40px;
-    width: 200px;
+    height: 2.67vw;
+    width: 13.34vw;
 }
 .footer-logo-and-name #about-us{
-    height: 100px;
-    width: 800px;
-    margin-left: 100px;
+    height: 6.67vw;
+    width: 53.34vw;
+    margin-left: 6.67vw;
     text-align: justify;
 }
 .footer-logo-and-name #about-us h5{
     font-family: "Ubuntu", "sans-serif";
     font-weight: 700;
-    font-size: 1.4rem;
+    font-size: 1.4vw;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 2.67vw;
     text-decoration: underline white;
 }
 .footer-logo-and-name #about-us p{
@@ -1145,37 +1149,36 @@ footer{
 
 
 .footer-legal-info{
-    height: 100px;
+    height: 6.67vw;
     width: 100%;
     background: linear-gradient(320deg, #eb92be,#ffef78,#63c9b4);
     color: #fff;
 }
 .footer-legal-info-container{
-    height: 80px;
+    height: 5.34vw;
     width: 100%;
     background-color: #744253;
     display: flex;
-    padding-top: 50px;
+    padding-top: 3.33vw;
 }
 .copyright-info{
-    height: 20px;
+    height: 1.34vw;
     width: 45vw;
-    padding-left: 10px;
+    padding-left: 0.67vw;
 
 }
 .copyright-info p{
-    font-size: 0.95rem;
+    font-size: 0.95vw;
     font-weight: 300;
-    display: inline-block;
-    padding-left: 5px;
+    padding-left: 0.34vw;
     color: #ffffffbf;
 }
 .copyright-info span{
-    font-size: 0.95rem;
+    font-size: 0.95vw;
     font-weight: 500;
 }
 .legal-tabs{
-    height: 20px;
+    height: 1.34vw;
     width: 55vw;
 }
 .legal-tabs ul{
@@ -1183,12 +1186,12 @@ footer{
     list-style-type: none;
 }
 .legal-tabs li{
-    padding-left: 12.5px;
-    padding-right: 12.5px;
-    font-size: 0.85rem;
+    padding-left: 0.84vw;
+    padding-right: 0.84vw;
+    font-size: 0.85vw;
     font-weight: 300;
     color: #ffffffbf;
-    border-right: 0.8px solid rgb(126, 120, 120);
+    border-right: 0.05vw solid rgb(126, 120, 120);
 }
 #last-tab{
     border: none;
@@ -1202,81 +1205,86 @@ footer{
     footer {
       transform: none; /* remove upward shift on mobile */
       padding-top: 0;
-      border-radius: 30px;
-      
+      border-radius: 8vw;
+      height: auto;
     }
   
     .footer-section {
       height: auto;
-      padding: 20px 10px;
+      padding: 5.36vw 2.8vw;
     }
-  
+
     .list-info {
+        height: auto;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 15px;
-      padding-top: 40px;
+      gap: 4vw;
+      padding-top: 10.68vw;
     }
   
     .list {
-      width: 30%; /* keep 3 per row */
-      min-width: 100px;
+      width: 30%; 
+      min-width: 13vw;
       text-align: center;
       height: auto;
     }
   
     .list h6 {
-      font-size: 1rem;
-      margin-bottom: 10px;
+      font-size: 4vw;
+      margin-bottom: 1.8vw;
     }
   
     .list ul, .list dl {
-      padding-top: 20px;
+      padding-top: 4vw;
     }
   
     .list li, .list dd, .list dt {
-      font-size: 0.85rem;
-      line-height: 24px;
+      font-size: 3.5vw;
+      line-height: 5vw;
     }
   
     .list dt {
-      font-size: 1rem;
+      font-size: 4vw;
     }
   
     .footer-logo-and-name {
       flex-direction: column;
       align-items: center;
       height: auto;
-      margin-top: 30px;
-      padding: 0 10px;
+      margin-top: 6vw;
+      padding: 0 2.4vw;
       text-align: center;
     }
   
     .footer-company-logo {
-      margin-left: 0;
-      margin-bottom: 20px;
+      margin-left: -7vw;
+      margin-bottom: 4vw;
     }
   
     .footer-company-logo figure img {
-      margin-top: 10vh;
-      width: 150px;
-      height: auto;
+      width: 20vw;
+      height: 5vw;
     }
   
     .footer-logo-and-name #about-us {
-        margin-top: 10vh;
       width: 100%;
       margin-left: 0;
+      
     }
   
     .footer-logo-and-name #about-us h5 {
-      font-size: 1.2rem;
-      padding-bottom: 20px;
+        display: block;
+      font-size: 3vw;
+      padding-bottom: 1.34vw;
+    }
+    .footer-logo-and-name #about-us p{
+        display: inline-block;
+        height: auto;
     }
   
     .footer-legal-info {
-        margin-top: 10vh;
+        margin-top: 4.85vw;
       height: auto;
     }
   
@@ -1284,9 +1292,11 @@ footer{
       flex-direction: column;
       align-items: center;
       height: auto;
-      padding: 20px 10px;
+      padding: 1.34vw 0.67vw;
       text-align: center;
-      gap: 15px;
+      gap: 1vw;
+
+      margin-top: auto;
     }
   
     .copyright-info,
@@ -1298,13 +1308,15 @@ footer{
       flex-direction: row;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 0.67vw;
     }
   
     .legal-tabs li {
       border: none;
-      padding: 5px 10px;
-      font-size: 0.85rem;
+      padding: 0.34vw 0.67vw;
+      font-size: 0.85vw;
     }
+
+    
   }
   
