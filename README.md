@@ -1,4 +1,5 @@
 # Eversharp-Pens
+LIVE PREVIEW :- https://harshdeep-singh-dev.github.io/Eversharp_Live/
 
 This is a website for eversharp pens, a company that excels in selling stationery items.
 The Website is made with playful UI in mind and is NOT RESPONSIVE YET.
